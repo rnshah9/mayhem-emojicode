@@ -1,5 +1,7 @@
 project: emojicode
 target: emojicodec
+testsuite:
+  - file://tests/compilation/hello.emojic
 
 cmds:
   - cmd: /usr/local/bin/emojicodec test.emojic
