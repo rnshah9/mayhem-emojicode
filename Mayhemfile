@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-emojicode
+project: emojicode
 target: emojicodec
 
 cmds:
-  - cmd: /usr/local/bin/emojicodec @@
+  - cmd: /usr/local/bin/emojicodec test.emojic
     filepath: test.emojic
