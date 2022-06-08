@@ -4,3 +4,5 @@ target: emojicodec
 cmds:
   - cmd: /usr/local/bin/emojicodec test.emojic
     filepath: test.emojic
+    env:
+      DISABLE_SMOKETEST: '1'
