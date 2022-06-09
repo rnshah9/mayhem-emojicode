@@ -17,4 +17,5 @@ FROM ubuntu:20.04 as package
 
 COPY --from=builder /deps /deps
 COPY --from=builder /usr/local/bin/emojicodec /usr/local/bin/emojicodec
+COPY --from=builder /usr/local/EmojicodePackages /usr/local/EmojicodePackages
 ENV LD_LIBRARY_PATH=/deps
