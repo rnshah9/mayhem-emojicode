@@ -2,9 +2,8 @@ project: emojicode
 target: emojicodec
 testsuite:
   - file://tests/compilation/hello.emojic
-
 cmds:
-  - cmd: /usr/local/bin/emojicodec test.emojic
-    filepath: test.emojic
+  - cmd: /emojicodec @@
+    filepath: /test.emojic
     env:
       DISABLE_SMOKETEST: '1'
